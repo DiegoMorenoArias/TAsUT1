@@ -1,0 +1,20 @@
+.odds
+{
+    background-color: lightpink;
+    font-family: "Verdana", "DejaVu Sans", sans-serif;
+}
+.exceptions
+{
+    font-size: 24px;
+}
+#numberTwo
+{
+    color:blue;
+    font-size: 36px;
+}
+#numberFour
+{
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}

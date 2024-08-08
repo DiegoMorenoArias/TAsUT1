@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chaining Selectors</title>
+    <link rel="stylesheet" href="style.css"> <!-- Tomé el enfoque de usar ids únicos porque el HTML brindado
+    contaba con la línea de href="style.css", entiendo que, a pesar de no estar aclarado, se buscaba que
+    se modifiquen de manera externa.-->
+  </head>
+  <body>
+    <div>
+      <img
+        class="avatar proportioned"
+        src="https://th.bing.com/th?id=ORMS.eeafbdd1acf0df9a98f3e3f48f46b635&pid=Wdp&w=612&h=328&qlt=90&c=1&rs=1&dpr=1.25&p=0"
+        alt="A photo of Jennifer Garner"
+        id="first-image">
+      </img>
+      <img class="avatar distorted"
+        src="https://th.bing.com/th?id=ORMS.f73cb5e1ef9360caa0c18c304e9816d3&pid=Wdp&w=612&h=304&qlt=90&c=1&rs=1&dpr=1.25&p=0"
+        alt="An elegant woman"
+        id="second-image">
+      </img>
+    </div>
+    <div>
+      <img class="original proportioned" src="https://th.bing.com/th?id=ORMS.eeafbdd1acf0df9a98f3e3f48f46b635&pid=Wdp&w=612&h=328&qlt=90&c=1&rs=1&dpr=1.25&p=0"
+      alt="A photo of Jennifer Garner">
+      <img class="original distorted" src="https://th.bing.com/th?id=ORMS.f73cb5e1ef9360caa0c18c304e9816d3&pid=Wdp&w=612&h=304&qlt=90&c=1&rs=1&dpr=1.25&p=0"
+      alt="An elegant woman">
+    </div>
+  </body>
+</html>

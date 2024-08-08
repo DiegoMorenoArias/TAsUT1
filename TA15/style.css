@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+   .para,
+  .small-para {
+    color: hsl(0, 0%, 0%);
+    font-weight: 800;
+  }
+  
+  .para {
+    font-size: 22px;
+  } /*Se cambió su orden de aparición para que no sobreescriba el que está en .small-para*/
+  
+  .small-para {
+    font-size: 14px;
+    font-weight: 800;
+  }
+
+  .button {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+  }
+   .confirm {
+    background: green;
+    color: white;
+    font-weight: bold;
+  } /*Se cambió su orden de aparición para que no quede sobreescrito por .button*/ 
+  
+  .text { /*Se le sacó el div.text y lo cambié meramente por un .text, para que afecte a todos
+    los que estén el la clase text*/
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    font-weight: 100;
+  }
+
+  .child { /*Se le cambió el orden de aparición para que no sea sobreescrito por el estilo atribuido
+    a la clase text*/
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+    font-size: 14px;
+  }
+  
