@@ -1,0 +1,50 @@
+body
+{
+    display: flex; /* "Inicializando" el FlexBox*/
+    width: 100vw;
+    height: 100vh; /*Haciendo que el body me ocupe toda la pantalla*/
+    align-items: center; /*Con estas dos líneas encaro que quede en el centro de la pantalla*/
+    justify-content: center;
+}
+
+.tarjeta
+{
+    position: relative; /*Haciendo que el div se posicione relativamente.*/
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px; /*Se le puse un border-radius arbitrario, no se aclaró en la letra*/
+    background-color: antiquewhite; /*Para que se vea el div*/
+    
+    /* Flexbox*/
+    display: flex;
+    flex-direction: column; /*Que queden uno arriba del otro*/
+    text-align: center; /*Texto centrado*/
+    align-items: center; /*Centrados horizontal y verticalmente en estas dos líneas*/
+    justify-content: center;
+}
+
+#Magnus
+{
+    position: absolute;
+    top: -10px; /* Para que sobresalga un poquito de la tarjeta y quede en la parte superior. */
+    left: 0px; /* Para que quede en la izquierda*/
+    width: 160px; /*Definiéndole un valor a la imagen para que esté cuadrada.*/
+    height: 160px;
+    border-radius: 50%; /*border-radius de 50% como pedía la letra*/
+    border: 3px solid black; /*Un bordecito negro para que quede lindo.*/
+}
+
+h2, p, button
+{
+    margin-top: 20px; /* Espacio entre los elementos*/
+}
+
+h2
+{
+    margin-top: 150px; /* Espacio para que el avatar no quede por encima del texto.*/
+}
+
+button:hover
+{
+    background-color: pink; /*Detalle agregado, al poner el mouse por encima del botón queda rosa.*/
+}
